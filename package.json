@@ -1,0 +1,27 @@
+{
+  "name": "dripsterapi",
+  "version": "1.0.0",
+  "description": "an ecommerce react native app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Andrew Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fawn": "^2.1.5",
+    "joi": "^17.3.0",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.16",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.5"
+  }
+}
